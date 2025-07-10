@@ -84,7 +84,7 @@ export class FullscreenMapPageComponent implements AfterViewInit {
     });
 
     map.on('load', () => {
-      console.log('Map loader');
+      console.log('Map loaded');
     });
 
     map.addControl(new mapboxgl.FullscreenControl());
